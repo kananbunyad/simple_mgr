@@ -142,8 +142,8 @@ class Product:
     sku: Optional[str]
     variants: List[Variant]
     manufacturers: List[ManufacturerEntity]
-    categories: List[CategoryInfo]
-    specific_prices: List[SpecificPrice]
+    # categories: List[CategoryInfo]
+    # specific_prices: List[SpecificPrice]
     tags: List[str]
     is_taxable: Optional[bool]
     stock: Stock
